@@ -84,7 +84,7 @@ export default function SideBar() {
     >
       {!isCollapsed ? (
         <div className="sidebar-header">
-          <h3 style={{ color: colors.grey[100] }}>ADMINIS</h3>
+          <h3 style={{ color: colors.grey[100] }}>ADMIN PANEL</h3>
 
           <button
             onClick={() => setIsCollapsed(!isCollapsed)}

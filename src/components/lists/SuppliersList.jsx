@@ -52,7 +52,7 @@ export default function SuppliersList() {
           marginBottom: "20px",
         }}
       >
-        <Header title="Suppliers Data" subtitle="Editable Table" />
+        <Header title="Suppliers Data" subtitle="List of Supplier Data" />
         <button
           style={{
             backgroundColor: colors.blueAccent[700],

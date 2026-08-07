@@ -52,7 +52,7 @@ export default function ProductList() {
           marginBottom: "20px",
         }}
       >
-        <Header title="Products Data" subtitle="editable table" />
+        <Header title="Products Data" subtitle="List of Product Data" />
         <button
           style={{
             backgroundColor: colors.blueAccent[700],
