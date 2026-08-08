@@ -28,7 +28,7 @@ export default function InventoryValueByCategory() {
   return (
     <div style={{ margin: "20px" }}>
       <Header title="INVENTORY VALUE BY CATEGORY" subtitle="A Pie Chart to show Inventory Value by Category" />
-      <div style={{ height: "95vh" }}>
+      <div style={{ height: "75vh" }}>
         <ResponsivePie
           data={data}
           theme={{

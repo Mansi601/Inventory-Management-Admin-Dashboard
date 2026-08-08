@@ -11,7 +11,7 @@ export default function RevenueByMonth() {
         title="REVENUE BY MONTH"
         subtitle="A Bar Chart to show revenue by month"
       />
-      <div style={{ height: "95vh" }}>
+      <div style={{ height: "75vh" }}>
         <ResponsiveBar
           data={revenueHistory}
           colors={colors.blueAccent[500]}
@@ -68,7 +68,7 @@ export default function RevenueByMonth() {
           ]}
           axisBottom={{ legend: "Month", legendOffset: 40 }}
           axisLeft={{ legend: "Revenue", legendOffset: -65 }}
-          margin={{ top: 50, right: 130, bottom: 50, left: 80 }}
+          margin={{ top: 15, right: 130, bottom: 50, left: 80 }}
         />
       </div>
     </div>

@@ -38,8 +38,8 @@ export default function App() {
 
         {/* Main dashboard content */}
         <Routes>
-          <Route path="/" element={<Dashboard isDashboard={true} />} />
-          <Route path="/Dashboard" element={<Dashboard isDashboard={true} />} />
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
           <Route path="/Products" element={<ProductList />} />
           <Route path="/Suppliers" element={<SuppliersList />} />
           <Route path="/Orders" element={<OrdersList />} />
@@ -62,7 +62,7 @@ export default function App() {
                 title={"STOCK BY CATEGORY"}
                 subtitle={"A Pie Chart to show Stock by Category"}
               >
-                <StockCategory isDashboard={true} />
+                <StockCategory />
               </PieChart>
             }
           />

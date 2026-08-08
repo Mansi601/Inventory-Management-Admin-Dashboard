@@ -8,7 +8,7 @@ export default function Form() {
     lastName: "",
     email: "",
     contact: "",
-    address1: "",
+    address: "",
     address2: "",
   });
   const { colors } = useTheme();
@@ -45,7 +45,7 @@ export default function Form() {
       newErrors.contact = "Invalid phone number";
     }
 
-    if (!values.address1.trim()) newErrors.address1 = "Address 1 is required";
+    if (!values.address.trim()) newErrors.address = "Address is required";
 
     return newErrors;
   }
@@ -66,7 +66,7 @@ export default function Form() {
         lastName: "",
         email: "",
         contact: "",
-        address1: "",
+        address: "",
       });
     }
   }
@@ -162,13 +162,13 @@ export default function Form() {
           <div style={{ gridColumn: "1 / -1" }}>
             <input
               type="text"
-              name="address1"
+              name="address"
               placeholder="Address"
-              value={values.address1}
+              value={values.address}
               onChange={handleChange}
               style={inputStyle}
             />
-            <p style={errorStyle}>{errors.address1}</p>
+            <p style={errorStyle}>{errors.address}</p>
           </div>
         </div>
 

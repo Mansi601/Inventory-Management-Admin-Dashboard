@@ -11,7 +11,7 @@ export default function InventoryMovementBar() {
         title="INVENTORY RECEIVED V/S SOLD"
         subtitle="A Bar Chart to show Inventory Received v/s sold"
       />
-      <div style={{ height: "95vh" }}>
+      <div style={{ height: "75vh" }}>
         <ResponsiveBar
           data={inventoryMovement}
           colors={[colors.blueAccent[500], colors.greenAccent[500]]}
@@ -67,7 +67,7 @@ export default function InventoryMovementBar() {
           ]}
           axisBottom={{ legend: "Month", legendOffset: 40 }}
           axisLeft={{ legend: "Units", legendOffset: -50 }}
-          margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
+          margin={{ top: 15, right: 130, bottom: 50, left: 60 }}
         />
       </div>
     </div>

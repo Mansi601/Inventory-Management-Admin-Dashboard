@@ -7,7 +7,7 @@ export default function PieChart({ children, title, subtitle }) {
         title={title}
         subtitle={subtitle}
       />
-      <div style={{ height: "95vh" }}>
+      <div style={{ height: "75vh" }}>
         {children}
       </div>
     </div>
