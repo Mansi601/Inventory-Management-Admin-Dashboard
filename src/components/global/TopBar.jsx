@@ -1,5 +1,4 @@
 import { useTheme } from "../../ThemeContext";
-import "./Topbar.css";
 import { Sun } from "lucide-react";
 import { Moon } from "lucide-react";
 import { Bell } from "lucide-react";
