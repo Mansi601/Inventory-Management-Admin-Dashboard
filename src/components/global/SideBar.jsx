@@ -179,7 +179,7 @@ export default function SideBar() {
           isCollapsed={isCollapsed}
         />
         <h6 style={{ padding: "12px 12px", color: colors.grey[300] }}>
-          Anlyses
+          Anlayses
         </h6>
 
         <DropdownMenu
@@ -231,11 +231,6 @@ export default function SideBar() {
         </DropdownMenu>
 
         <h6 style={{ padding: "12px 13px", color: colors.grey[300] }}>Pages</h6>
-        <MenuItem
-          icon={<Calendar />}
-          title="Calendar"
-          isCollapsed={isCollapsed}
-        />
         <MenuItem
           icon={<Users />}
           title="Profile Form"
