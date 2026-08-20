@@ -1,13 +1,11 @@
 import Table from "./Table";
 import Modal from "./Modal";
 import { use, useState } from "react";
-import { productsData } from "../../data/productsData";
-import { productColumn } from "../../data/columns";
 import { useTheme } from "../../ThemeContext";
 import Header from "../global/Header";
 
-export default function Lists() {
-  const [rows, setRows] = useState(productsData);
+export default function Lists({ initialData, columns, title, subtitle }) {
+  const [rows, setRows] = useState(initialData);
   const [open, setOpen] = useState(false);
   const [rowToEdit, setRowToEdit] = useState(null);
   const { colors } = useTheme();
@@ -23,6 +21,11 @@ export default function Lists() {
   function handleEdit(idx) {
     setRowToEdit(idx);
     modalOpen();
+  }
+
+  function handleAdd() {
+    setRowToEdit(null);
+    setOpen(true);
   }
 
   function handleSubmit(row) {
@@ -43,7 +46,7 @@ export default function Lists() {
   }
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", margin:"20px"}}>
+    <div style={{ display: "flex", flexDirection: "column", margin: "20px" }}>
       <div
         style={{
           display: "flex",
@@ -52,7 +55,7 @@ export default function Lists() {
           marginBottom: "20px",
         }}
       >
-        <Header title="Products Data" subtitle="Editable Table" />
+        <Header title={title} subtitle={subtitle} />
         <button
           style={{
             backgroundColor: colors.blueAccent[700],
@@ -64,14 +67,14 @@ export default function Lists() {
             borderRadius: "4px",
             cursor: "pointer",
           }}
-          onClick={handleEdit}
+          onClick={handleAdd}
         >
           Add Rows
         </button>
       </div>
       <Table
         data={rows}
-        columns={productColumn}
+        columns={columns}
         deleteRow={deleteRow}
         modalOpen={modalOpen}
         handleEdit={handleEdit}
@@ -80,7 +83,7 @@ export default function Lists() {
         <Modal
           open={open}
           setOpen={setOpen}
-          columns={productColumn}
+          columns={columns}
           modalClose={() => {
             setOpen(false);
           }}
