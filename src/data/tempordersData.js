@@ -1,6 +1,6 @@
 export const ordersData = [
   {
-    id: "ORD-1001",
+    id: "1001",
     customer: "Amazon",
     country: "United States",
     countryCode: "US",
@@ -10,7 +10,7 @@ export const ordersData = [
     date: "2026-07-10"
   },
   {
-    id: "ORD-1002",
+    id: "1002",
     customer: "Flipkart",
     country: "India",
     countryCode: "IN",
@@ -20,7 +20,7 @@ export const ordersData = [
     date: "2026-07-11"
   },
   {
-    id: "ORD-1003",
+    id: "1003",
     customer: "Walmart",
     country: "United States",
     countryCode: "US",
@@ -30,7 +30,7 @@ export const ordersData = [
     date: "2026-07-11"
   },
   {
-    id: "ORD-1004",
+    id: "1004",
     customer: "Carrefour",
     country: "France",
     countryCode: "FR",
@@ -40,7 +40,7 @@ export const ordersData = [
     date: "2026-07-12"
   },
   {
-    id: "ORD-1005",
+    id: "1005",
     customer: "Tesco",
     country: "United Kingdom",
     countryCode: "GB",
@@ -50,7 +50,7 @@ export const ordersData = [
     date: "2026-07-12"
   },
   {
-    id: "ORD-1006",
+    id: "1006",
     customer: "Target",
     country: "United States",
     countryCode: "US",
@@ -60,7 +60,7 @@ export const ordersData = [
     date: "2026-07-13"
   },
   {
-    id: "ORD-1007",
+    id: "1007",
     customer: "Costco",
     country: "Canada",
     countryCode: "CA",
@@ -70,7 +70,7 @@ export const ordersData = [
     date: "2026-07-13"
   },
   {
-    id: "ORD-1008",
+    id: "1008",
     customer: "Reliance Retail",
     country: "India",
     countryCode: "IN",
@@ -80,7 +80,7 @@ export const ordersData = [
     date: "2026-07-14"
   },
   {
-    id: "ORD-1009",
+    id: "1009",
     customer: "Aldi",
     country: "Germany",
     countryCode: "DE",
@@ -90,7 +90,7 @@ export const ordersData = [
     date: "2026-07-14"
   },
   {
-    id: "ORD-1010",
+    id: "1010",
     customer: "Lulu Hypermarket",
     country: "United Arab Emirates",
     countryCode: "AE",
@@ -100,7 +100,7 @@ export const ordersData = [
     date: "2026-07-15"
   },
   {
-    id: "ORD-1011",
+    id: "1011",
     customer: "Best Buy",
     country: "United States",
     countryCode: "US",
@@ -110,7 +110,7 @@ export const ordersData = [
     date: "2026-07-15"
   },
   {
-    id: "ORD-1012",
+    id: "1012",
     customer: "JB Hi-Fi",
     country: "Australia",
     countryCode: "AU",
@@ -120,7 +120,7 @@ export const ordersData = [
     date: "2026-07-16"
   },
   {
-    id: "ORD-1013",
+    id: "1013",
     customer: "MediaMarkt",
     country: "Germany",
     countryCode: "DE",
@@ -130,7 +130,7 @@ export const ordersData = [
     date: "2026-07-16"
   },
   {
-    id: "ORD-1014",
+    id: "1014",
     customer: "Noon",
     country: "Saudi Arabia",
     countryCode: "SA",
@@ -140,7 +140,7 @@ export const ordersData = [
     date: "2026-07-17"
   },
   {
-    id: "ORD-1015",
+    id: "1015",
     customer: "Shopee",
     country: "Singapore",
     countryCode: "SG",
@@ -150,7 +150,7 @@ export const ordersData = [
     date: "2026-07-17"
   },
   {
-    id: "ORD-1016",
+    id: "1016",
     customer: "eMAG",
     country: "Romania",
     countryCode: "RO",
@@ -160,7 +160,7 @@ export const ordersData = [
     date: "2026-07-18"
   },
   {
-    id: "ORD-1017",
+    id: "1017",
     customer: "Mercado Libre",
     country: "Brazil",
     countryCode: "BR",
@@ -170,7 +170,7 @@ export const ordersData = [
     date: "2026-07-18"
   },
   {
-    id: "ORD-1018",
+    id: "1018",
     customer: "Rakuten",
     country: "Japan",
     countryCode: "JP",
@@ -180,7 +180,7 @@ export const ordersData = [
     date: "2026-07-19"
   },
   {
-    id: "ORD-1019",
+    id: "1019",
     customer: "El Corte Inglés",
     country: "Spain",
     countryCode: "ES",
@@ -190,7 +190,7 @@ export const ordersData = [
     date: "2026-07-19"
   },
   {
-    id: "ORD-1020",
+    id: "1020",
     customer: "Shoprite",
     country: "South Africa",
     countryCode: "ZA",
